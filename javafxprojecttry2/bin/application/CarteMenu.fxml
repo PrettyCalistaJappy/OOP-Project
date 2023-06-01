@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CarteMenuController">
+   <children>
+      <Label layoutX="221.0" layoutY="38.0" text="A La Carte Menu">
+         <font>
+            <Font name="Berlin Sans FB" size="22.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="Chicken" layoutX="335.0" layoutY="83.0" />
+      <Spinner fx:id="Hamburger" layoutX="335.0" layoutY="126.0" />
+      <Spinner fx:id="CheeseBurger" layoutX="335.0" layoutY="167.0" />
+      <Spinner fx:id="Fries" layoutX="335.0" layoutY="210.0" />
+      <Spinner fx:id="SoftDrink" layoutX="335.0" layoutY="252.0" />
+      <Button layoutX="264.0" layoutY="332.0" mnemonicParsing="false" onAction="#checkout" text="Confirm" />
+      <Label layoutX="150.0" layoutY="87.0" text="Chicken" />
+      <Label layoutX="150.0" layoutY="130.0" text="Hamburger" />
+      <Label layoutX="149.0" layoutY="171.0" prefHeight="17.0" prefWidth="85.0" text="Cheese Burger" />
+      <Label layoutX="149.0" layoutY="214.0" text="Fries" />
+      <Label layoutX="147.0" layoutY="256.0" text="Soft Drink" />
+   </children>
+</AnchorPane>
